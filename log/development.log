@@ -1,0 +1,1556 @@
+Started GET "/" for ::1 at 2022-09-11 21:20:06 +0545
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ajayshrestha/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ajayshrestha/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 634)
+Completed 200 OK in 8ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 5091)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:22:27 +0545
+  
+SyntaxError (/Users/ajayshrestha/Desktop/Code/ror_note_app/app/controllers/hello_controller.rb:1: syntax error, unexpected '>'
+class HelloController > ApplicationController
+                      ^
+):
+  
+app/controllers/hello_controller.rb:1: syntax error, unexpected '>'
+app/controllers/hello_controller.rb:1: syntax error, unexpected '>'
+app/controllers/hello_controller.rb:1: syntax error, unexpected '>'
+Started GET "/" for ::1 at 2022-09-11 21:22:40 +0545
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html within layouts/application
+  Rendered hello/index.html within layouts/application (Duration: 0.2ms | Allocations: 107)
+  Rendered layout layouts/application.html.erb (Duration: 137.1ms | Allocations: 90637)
+Completed 200 OK in 139ms (Views: 138.0ms | Allocations: 91618)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:23:34 +0545
+  
+SyntaxError (/Users/ajayshrestha/Desktop/Code/ror_note_app/config/routes.rb:4: syntax error, unexpected ':', expecting `end'
+  get "/about" :to => "hello#about"
+               ^
+/Users/ajayshrestha/Desktop/Code/ror_note_app/config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input):
+  
+config/routes.rb:4: syntax error, unexpected ':', expecting `end'
+config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input
+config/routes.rb:4: syntax error, unexpected ':', expecting `end'
+config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input
+config/routes.rb:4: syntax error, unexpected ':', expecting `end'
+config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input
+Started GET "/about" for ::1 at 2022-09-11 21:23:40 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/" for ::1 at 2022-09-11 21:23:44 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2022-09-11 21:23:54 +0545
+  
+SyntaxError (/Users/ajayshrestha/Desktop/Code/ror_note_app/config/routes.rb:4: syntax error, unexpected ':', expecting `end'
+  get "/about" :to > "hello#about"
+               ^
+/Users/ajayshrestha/Desktop/Code/ror_note_app/config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input):
+  
+config/routes.rb:4: syntax error, unexpected ':', expecting `end'
+config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input
+config/routes.rb:4: syntax error, unexpected ':', expecting `end'
+config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input
+config/routes.rb:4: syntax error, unexpected ':', expecting `end'
+config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input
+Started GET "/" for ::1 at 2022-09-11 21:23:55 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2022-09-11 21:23:57 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2022-09-11 21:24:42 +0545
+Processing by HelloController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/index.html within layouts/application
+  Rendered hello/index.html within layouts/application (Duration: 0.4ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 14448)
+Completed 200 OK in 13ms (Views: 11.7ms | Allocations: 15358)
+
+
+Started GET "/about" for ::1 at 2022-09-11 21:24:44 +0545
+Processing by HelloController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/about.html within layouts/application
+  Rendered hello/about.html within layouts/application (Duration: 0.9ms | Allocations: 85)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2527)
+Completed 200 OK in 7ms (Views: 5.6ms | Allocations: 2848)
+
+
+Started GET "/about" for ::1 at 2022-09-11 21:24:50 +0545
+  
+SyntaxError (/Users/ajayshrestha/Desktop/Code/ror_note_app/config/routes.rb:4: syntax error, unexpected =>, expecting `end'
+  get "/about", to: => "hello#about"
+                    ^~
+/Users/ajayshrestha/Desktop/Code/ror_note_app/config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input):
+  
+config/routes.rb:4: syntax error, unexpected =>, expecting `end'
+config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input
+config/routes.rb:4: syntax error, unexpected =>, expecting `end'
+config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input
+config/routes.rb:4: syntax error, unexpected =>, expecting `end'
+config/routes.rb:5: syntax error, unexpected `end', expecting end-of-input
+Started GET "/about" for ::1 at 2022-09-11 21:24:56 +0545
+Processing by HelloController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/about.html within layouts/application
+  Rendered hello/about.html within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 14182)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 14808)
+
+
+Started GET "/about" for ::1 at 2022-09-11 21:25:46 +0545
+Processing by HelloController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/about.html within layouts/application
+  Rendered hello/about.html within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 14094)
+Completed 200 OK in 6ms (Views: 6.1ms | Allocations: 14719)
+
+
+Started GET "/about" for ::1 at 2022-09-11 21:25:47 +0545
+Processing by HelloController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello/about.html within layouts/application
+  Rendered hello/about.html within layouts/application (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2414)
+Completed 200 OK in 7ms (Views: 5.9ms | Allocations: 2682)
+
+
+Started GET "/about" for ::1 at 2022-09-11 21:27:32 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/" for ::1 at 2022-09-11 21:27:35 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html within layouts/application
+  Rendered notes/index.html within layouts/application (Duration: 0.2ms | Allocations: 100)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 14468)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 15378)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:27:50 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html within layouts/application
+  Rendered notes/index.html within layouts/application (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 2467)
+Completed 200 OK in 18ms (Views: 17.2ms | Allocations: 2735)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:31:43 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 14498)
+Completed 200 OK in 7ms (Views: 7.0ms | Allocations: 15461)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:35:48 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1828)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1916)
+Completed 500 Internal Server Error in 2ms (Allocations: 2852)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass
+
+<li>'.freeze;@output_buffer.append=( @notes[0] );@output_buffer.safe_append='</li>
+                                           ^^^):
+    1: <p>Notes</p>
+    2: <ul>
+    3: <li><%= @notes[0] %></li>
+    4: <li><%= @notes[1] %></li>
+    5: </ul>
+  
+app/views/notes/index.html.erb:3
+Started GET "/" for ::1 at 2022-09-11 21:36:18 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 14412)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 15046)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:37:17 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3047)
+Completed 200 OK in 13ms (Views: 10.7ms | Allocations: 3903)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:37:22 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3053)
+Completed 200 OK in 10ms (Views: 8.7ms | Allocations: 3888)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:39:49 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 191)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3072)
+Completed 200 OK in 10ms (Views: 8.3ms | Allocations: 3907)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:39:50 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2453)
+Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 2729)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:39:50 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2435)
+Completed 200 OK in 6ms (Views: 5.6ms | Allocations: 2694)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:39:51 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2459)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 2717)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:39:51 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 2452)
+Completed 200 OK in 14ms (Views: 13.8ms | Allocations: 2711)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:39:51 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2423)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 2681)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:39:51 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2429)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 2687)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:39:51 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2426)
+Completed 200 OK in 5ms (Views: 4.6ms | Allocations: 2684)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:41:03 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3097)
+Completed 200 OK in 12ms (Views: 10.2ms | Allocations: 3914)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:42:53 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1138)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1227)
+Completed 500 Internal Server Error in 5ms (Allocations: 2045)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p>Notes</p>
+
+<ul> 
+<% @notes.each do |note|>
+    <li> <%= note %> </li>
+<% end %>
+
+</ul>
+):
+1:    <p>Notes</p>
+2:    
+3:    <ul> 
+4:    <% @notes.each do |note|>
+5:        <li> <%= note %> </li>
+6:    <% end %>
+7:    
+8:    </ul>
+  
+app/views/notes/index.html.erb:4: syntax error, unexpected '>'
+app/views/notes/index.html.erb:4: syntax error, unexpected '>'
+app/views/notes/index.html.erb:4: syntax error, unexpected '>'
+app/views/notes/index.html.erb:4: syntax error, unexpected '>'
+app/views/notes/index.html.erb:4: syntax error, unexpected '>'
+app/views/notes/index.html.erb:4: syntax error, unexpected '>'
+Started GET "/" for ::1 at 2022-09-11 21:43:17 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 191)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3107)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 3936)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:44:54 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 230)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3149)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 3985)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:44:58 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3120)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 3955)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:45:08 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3120)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 3955)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:45:08 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2432)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 2708)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:45:09 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2441)
+Completed 200 OK in 7ms (Views: 6.6ms | Allocations: 2699)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:45:09 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2432)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 2690)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:45:13 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3102)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 3919)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:45:19 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 227)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3108)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 3943)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:51:14 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 230)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3141)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 3976)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:51:19 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 225)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3124)
+Completed 200 OK in 12ms (Views: 10.7ms | Allocations: 3959)
+
+
+Started GET "/" for ::1 at 2022-09-11 21:57:40 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 14586)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 15605)
+
+
+Started GET "/notes/1" for ::1 at 2022-09-11 21:57:47 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2537)
+Completed 200 OK in 7ms (Views: 5.6ms | Allocations: 2881)
+
+
+Started GET "/notes/0" for ::1 at 2022-09-11 21:57:51 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2441)
+Completed 200 OK in 6ms (Views: 4.9ms | Allocations: 2711)
+
+
+Started GET "/" for ::1 at 2022-09-11 22:00:26 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 14499)
+Completed 200 OK in 8ms (Views: 7.9ms | Allocations: 15517)
+
+
+Started GET "/notes/1" for ::1 at 2022-09-11 22:00:30 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2549)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 2894)
+
+
+Started GET "/" for ::1 at 2022-09-11 22:00:35 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2443)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 2703)
+
+
+Started GET "/notes/0" for ::1 at 2022-09-11 22:00:38 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2408)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 2680)
+
+
+Started GET "/notes/0" for ::1 at 2022-09-11 22:01:06 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 143)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3025)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 3854)
+
+
+Started GET "/" for ::1 at 2022-09-11 22:01:08 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2655)
+Completed 200 OK in 7ms (Views: 5.7ms | Allocations: 2989)
+
+
+Started GET "/notes/0" for ::1 at 2022-09-11 22:01:09 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2432)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 2705)
+
+
+Started GET "/" for ::1 at 2022-09-11 22:01:10 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2435)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 2697)
+
+
+Started GET "/notes/1" for ::1 at 2022-09-11 22:01:11 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2453)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 2725)
+
+
+Started GET "/" for ::1 at 2022-09-11 22:01:13 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2465)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 2727)
+
+
+Started GET "/" for ::1 at 2022-09-11 22:01:34 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3137)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 3956)
+
+
+Started GET "/notes/0" for ::1 at 2022-09-11 22:01:36 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 118)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2529)
+Completed 200 OK in 6ms (Views: 4.9ms | Allocations: 2872)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:31:22 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 477)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 36091)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 39485)
+
+
+Started GET "/notes/0" for ::1 at 2022-09-12 12:31:24 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2657)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3082)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:31:26 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2439)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 2708)
+
+
+Started GET "/notes/1" for ::1 at 2022-09-12 12:31:27 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2438)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2713)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:31:27 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2442)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2711)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:32:13 +0545
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ajayshrestha/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ajayshrestha/.rvm/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 305)
+Completed 200 OK in 1ms (Views: 0.8ms | Allocations: 1161)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:33:17 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html within layouts/application
+  Rendered notes/index.html within layouts/application (Duration: 0.1ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 14478)
+Completed 200 OK in 7ms (Views: 6.7ms | Allocations: 15483)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:35:00 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1388)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1486)
+Completed 500 Internal Server Error in 2ms (Allocations: 2430)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.size > 0 , do |note| %>
+<li>
+    note
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.size > 0 , do |note| %>
+7:    <li>
+8:        note
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+Started GET "/" for ::1 at 2022-09-12 12:35:14 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1135)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1224)
+Completed 500 Internal Server Error in 6ms (Allocations: 2029)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.size > 0 , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.size > 0 , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+Started GET "/" for ::1 at 2022-09-12 12:35:16 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1094)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1174)
+Completed 500 Internal Server Error in 3ms (Allocations: 1427)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.size > 0 , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.size > 0 , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+Started GET "/" for ::1 at 2022-09-12 12:35:16 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1093)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1173)
+Completed 500 Internal Server Error in 1ms (Allocations: 1408)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.size > 0 , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.size > 0 , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+Started GET "/" for ::1 at 2022-09-12 12:35:16 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1249)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1612)
+Completed 500 Internal Server Error in 1ms (Allocations: 3404)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.size > 0 , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.size > 0 , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+Started GET "/" for ::1 at 2022-09-12 12:35:17 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1330)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1410)
+Completed 500 Internal Server Error in 1ms (Allocations: 2527)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.size > 0 , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.size > 0 , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+Started GET "/" for ::1 at 2022-09-12 12:35:17 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1093)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1173)
+Completed 500 Internal Server Error in 1ms (Allocations: 3435)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.size > 0 , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.size > 0 , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+app/views/notes/index.html.erb:6: syntax error, unexpected ',', expecting `end'
+Started GET "/" for ::1 at 2022-09-12 12:35:29 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1136)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 1225)
+Completed 500 Internal Server Error in 4ms (Allocations: 2009)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.each , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.each , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+Started GET "/" for ::1 at 2022-09-12 12:35:30 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1094)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1174)
+Completed 500 Internal Server Error in 3ms (Allocations: 1427)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.each , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.each , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+Started GET "/" for ::1 at 2022-09-12 12:35:31 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1094)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1174)
+Completed 500 Internal Server Error in 1ms (Allocations: 1409)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.each , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.each , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+Started GET "/" for ::1 at 2022-09-12 12:35:31 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1623)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 2170)
+Completed 500 Internal Server Error in 1ms (Allocations: 3975)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.each , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.each , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+Started GET "/" for ::1 at 2022-09-12 12:35:31 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 1094)
+  Rendered layout layouts/application.html.erb (Duration: 0.3ms | Allocations: 1174)
+Completed 500 Internal Server Error in 1ms (Allocations: 2358)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.each , do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.each , do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+app/views/notes/index.html.erb:6: syntax error, unexpected `do', expecting '='
+Started GET "/" for ::1 at 2022-09-12 12:35:47 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1136)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1225)
+Completed 500 Internal Server Error in 4ms (Allocations: 2009)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% @notes.each  do |note| %>
+<li>
+   <%= note %>
+</li>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% @notes.each  do |note| %>
+7:    <li>
+8:       <%= note %>
+9:    </li>
+10:    
+11:    </ul>
+  
+app/views/notes/index.html.erb:13: syntax error, unexpected end-of-input, expecting `end'
+app/views/notes/index.html.erb:13: syntax error, unexpected end-of-input, expecting `end'
+app/views/notes/index.html.erb:13: syntax error, unexpected end-of-input, expecting `end'
+app/views/notes/index.html.erb:13: syntax error, unexpected end-of-input, expecting `end'
+app/views/notes/index.html.erb:13: syntax error, unexpected end-of-input, expecting `end'
+app/views/notes/index.html.erb:13: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for ::1 at 2022-09-12 12:36:04 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 14548)
+Completed 200 OK in 26ms (Views: 24.4ms | Allocations: 15386)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:36:51 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1189)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1278)
+Completed 500 Internal Server Error in 6ms (Allocations: 2086)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Notes</h1>
+
+
+<ul>
+
+<% if(@notes.size > 0) %>
+<% @notes.each  do |note| %>
+<li>
+   <%= note %>
+</li>
+
+<% else %>
+    <p> No items </p>
+<% end %>
+
+<% end %>
+
+</ul>
+):
+1:    <h1>Notes</h1>
+2:    
+3:    
+4:    <ul>
+5:    
+6:    <% if(@notes.size > 0) %>
+7:    <% @notes.each  do |note| %>
+8:    <li>
+9:       <%= note %>
+10:    </li>
+11:    
+12:    <% else %>
+13:        <p> No items </p>
+14:    <% end %>
+15:    
+16:    <% end %>
+17:    
+18:    </ul>
+  
+app/views/notes/index.html.erb:12: else without rescue is useless
+app/views/notes/index.html.erb:12: else without rescue is useless
+app/views/notes/index.html.erb:12: else without rescue is useless
+app/views/notes/index.html.erb:12: else without rescue is useless
+app/views/notes/index.html.erb:12: else without rescue is useless
+app/views/notes/index.html.erb:12: else without rescue is useless
+Started GET "/" for ::1 at 2022-09-12 12:37:06 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 230)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3126)
+Completed 200 OK in 12ms (Views: 9.5ms | Allocations: 3955)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:37:12 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 225)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3103)
+Completed 200 OK in 12ms (Views: 10.2ms | Allocations: 3938)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:37:17 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3109)
+Completed 200 OK in 12ms (Views: 10.1ms | Allocations: 3944)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:41:09 +0545
+Processing by NotesController#index as HTML
+Completed 500 Internal Server Error in 6ms (Allocations: 5997)
+
+
+  
+NoMethodError (undefined method `set_action' for #<NotesController:0x0000000001b670>
+
+              target.send(@method_name, &block)
+                    ^^^^^
+Did you mean?  send_action):
+  
+activesupport (7.0.4) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.4) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+actiontext (7.0.4) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-09-12 12:42:01 +0545
+Processing by NotesController#index as HTML
+Completed 500 Internal Server Error in 17ms (Allocations: 5832)
+
+
+  
+NoMethodError (undefined method `set_action' for #<NotesController:0x0000000001b9b8>
+
+              target.send(@method_name, &block)
+                    ^^^^^
+Did you mean?  send_action):
+  
+activesupport (7.0.4) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.4) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+actiontext (7.0.4) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-09-12 12:42:21 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 239)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 14597)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 15573)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:43:01 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 237)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3118)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 3954)
+
+
+Started GET "/notes/" for ::1 at 2022-09-12 12:43:05 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/notes"):
+  
+Started GET "/" for ::1 at 2022-09-12 12:43:08 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2568)
+Completed 200 OK in 7ms (Views: 5.9ms | Allocations: 2864)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:44:07 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3145)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 3958)
+
+
+Started GET "/notes/0" for ::1 at 2022-09-12 12:44:09 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2528)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 2873)
+
+
+Started GET "/notes/0" for ::1 at 2022-09-12 12:44:41 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3023)
+Completed 200 OK in 12ms (Views: 10.4ms | Allocations: 3852)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:44:43 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 226)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2640)
+Completed 200 OK in 9ms (Views: 7.3ms | Allocations: 2973)
+
+
+Started GET "/notes/1" for ::1 at 2022-09-12 12:44:44 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2429)
+Completed 200 OK in 7ms (Views: 5.6ms | Allocations: 2701)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:44:46 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2438)
+Completed 200 OK in 8ms (Views: 6.5ms | Allocations: 2700)
+
+
+Started GET "/notes/0" for ::1 at 2022-09-12 12:44:47 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2423)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 2695)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:44:48 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2474)
+Completed 200 OK in 8ms (Views: 6.8ms | Allocations: 2736)
+
+
+Started GET "/notes/1" for ::1 at 2022-09-12 12:44:49 +0545
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2411)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 2683)
+
+
+Started GET "/" for ::1 at 2022-09-12 12:44:50 +0545
+Processing by NotesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  Rendered notes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2450)
+Completed 200 OK in 5ms (Views: 4.1ms | Allocations: 2712)
+
+
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateNotes (20220912070242)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "notes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220912070242"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-09-12 07:04:52.742317"], ["updated_at", "2022-09-12 07:04:52.742317"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
